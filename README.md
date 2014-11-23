@@ -5,20 +5,20 @@ I want to create a simple analogue of socket.io sockets with help of AJAX and SS
 |		|					         	-------------
 |		|			----SSE---->	  	|  client 	|
 |		|			<---AJAX----  		|     1   	|
-|	S	|					         	-------------
+|		|					         	-------------
 |		|			
 |		|					         	-------------
-|	E	|			----SSE---->  		|  client 	|
-|		|			<---AJAX----	  	|     2   	|
+|	S	|			----SSE---->  		|  client 	|
+|	E	|			<---AJAX----	  	|     2   	|
 |	R	|					         	-------------
-|		|
-|		|					         	-------------
-|	V	|			----SSE---->  		|  client 	|
-|		|			<---AJAX----	  	|     3   	|
+|	V	|
 |	E	|					         	-------------
+|	R	|			----SSE---->  		|  client 	|
+|		|			<---AJAX----	  	|     3   	|
+|		|					         	-------------
 |		|		
 |		|					         	-------------
-|	R	|			----SSE---->  		|  client 	|
+|		|			----SSE---->  		|  client 	|
 |		|			<---AJAX----  		|     4   	|
 |		|					         	-------------
 ```
