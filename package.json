@@ -1,0 +1,8 @@
+{
+	"name": "ajaxSSEsocket",
+	"version": "0.0",
+	"description": "sockets on base of AJAX and SSE technology",
+	"author": "Badarau Petru",
+	"dependencies": {
+	}
+}
