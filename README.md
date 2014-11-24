@@ -1,19 +1,24 @@
 This project is intended to be a simple experience.
 
 I want to create a simple analogue of socket.io sockets with help of AJAX and SSE tecnologies.
-
-|		|			----SSE---->		-------------
-|		|			<---AJAX----		|  client 1	|
-|	S	|								-------------
+```
+|		|					         	-------------
+|		|			----SSE---->	  	|  client 	|
+|		|			<---AJAX----  		|     1   	|
+|		|					         	-------------
 |		|			
-|	E	|			----SSE---->		-------------
-|		|			<---AJAX----		|  client 2	|
-|	R	|								-------------
-|		|
-|	V	|			----SSE---->		-------------
-|		|			<---AJAX----		|  client 3	|
-|	E	|								-------------
-|		|			
-|	R	|			----SSE---->		-------------
-|		|			<---AJAX----		|  client 4	|
-|		|								-------------
+|		|					         	-------------
+|	S	|			----SSE---->  		|  client 	|
+|	E	|			<---AJAX----	  	|     2   	|
+|	R	|					         	-------------
+|	V	|
+|	E	|					         	-------------
+|	R	|			----SSE---->  		|  client 	|
+|		|			<---AJAX----	  	|     3   	|
+|		|					         	-------------
+|		|		
+|		|					         	-------------
+|		|			----SSE---->  		|  client 	|
+|		|			<---AJAX----  		|     4   	|
+|		|					         	-------------
+```
