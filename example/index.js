@@ -2,7 +2,7 @@ var http = require('http');
 var Server = require('../index');
 
 var app = http.createServer(function(req, res) {
-	res.end();	
+	res.end('mimo');	
 });
 
 app.listen(8000);
