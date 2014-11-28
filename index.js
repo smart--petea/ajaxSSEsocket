@@ -1,1 +1,2 @@
-module.exports = require(__dirname + '/lib/server');
+var path = require('path');
+module.exports = require(path.join(__dirname, 'lib', 'server'));
